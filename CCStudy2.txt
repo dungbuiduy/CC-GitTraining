@@ -1,1 +1,9 @@
 CC-Study2 for GIT
+###Git command common
+$ git init
+$ git clone <patch>
+$ git checkout <branch>
+$ git add
+$ git commit -m "Message"
+$ git push  <REMOTENAME> <BRANCHNAME> 
+
