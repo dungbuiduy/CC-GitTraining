@@ -1,0 +1,6 @@
+domain: dev.coccoc.com
+browser version: 47.2.2526.123
+Ohama version: 1.3.39.21
+Savior version: 0.12.0
+En2Vi version: 1.0.2
+old Version: 47.2.2526.118

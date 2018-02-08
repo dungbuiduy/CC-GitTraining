@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CocCoc Smoke">
+	<test verbose="2" name="CocCoc Smoke">
+		<groups>
+			<run>
+				<!-- exclude name="execute" /-->
+				<exclude name="pending" />
+			</run>
+		</groups>
+		<classes>
+			<class name="browser_Testsuite_GoogleServices.DownloadCocCoc"/>
+			<!-- 
+			<class name="browser_Testsuite_GoogleServices.Geolocation"/>
+			<class name="browser_Testsuite_GoogleServices.GoogleCalendar"/>
+			<class name="browser_Testsuite_GoogleServices.GoogleDrive"/>
+			<class name="browser_Testsuite_GoogleServices.GoogleNews"/>
+			<class name="browser_Testsuite_GoogleServices.Googleplus"/>
+			<class name="browser_Testsuite_GoogleServices.OtherServices"/>
+			<class name="browser_Testsuite_GoogleServices.SafeBrowsing"/>
+			<class name="browser_Testsuite_GoogleServices.SigninAndSyn"/>
+			<class name="browser_Testsuite_GoogleServices.WebpagesTranslation"/>
+			<class name="browser_Testsuite_GoogleServices.Youtube"/>
+			 -->
+			<!-- 
+      		<class name="browser_Testsuite_Windows.Browser_Windows_Install"/>
+			<class name="browser_Testsuite_Windows.Browser_Windows_Update"/>
+			<class name="browser_Testsuite_Windows.Browser_Windows_Uninstall"/>
+			 /-->
+		</classes>
+	</test> 
+</suite>
